@@ -1,0 +1,35 @@
+{
+    "type": "object",
+    "properties": {
+        "source_language": {
+            "required": true,
+            "type": "string",
+            "enum": [
+                "en",
+                "es",
+                "lv",
+                "nso",
+                "zu",
+                "ms",
+                "tn",
+                "ur",
+                "hi",
+                "sw",
+                "de",
+                "pt",
+                "ta",
+                "gu"
+            ]
+        },
+        "app_id": {
+            "required": true,
+            "type": "string",
+            "default": "5037d509"
+        },
+        "app_key": {
+            "required": true,
+            "type": "string",
+            "default": "4dc1aebaa63721f0f8e79a55e2514bc7"
+        }
+    }
+}

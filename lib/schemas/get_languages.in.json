@@ -1,0 +1,55 @@
+{
+    "type": "object",
+    "properties": {
+        "sourceLanguage": {
+            "required": false,
+            "type": "string",
+            "enum": [
+                "es",
+                "en",
+                "lv",
+                "nso",
+                "zu",
+                "ms",
+                "id",
+                "tn",
+                "ur",
+                "hi",
+                "sw",
+                "ro",
+                "de",
+                "pt",
+                "ta",
+                "gu"
+            ]
+        },
+        "targetLanguage": {
+            "required": false,
+            "type": "string",
+            "enum": [
+                "es",
+                "en",
+                "lv",
+                "nso",
+                "zu",
+                "ms",
+                "id",
+                "tn",
+                "ur",
+                "hi",
+                "sw",
+                "ro"
+            ]
+        },
+        "app_id": {
+            "required": true,
+            "type": "string",
+            "default": "5037d509"
+        },
+        "app_key": {
+            "required": true,
+            "type": "string",
+            "default": "4dc1aebaa63721f0f8e79a55e2514bc7"
+        }
+    }
+}

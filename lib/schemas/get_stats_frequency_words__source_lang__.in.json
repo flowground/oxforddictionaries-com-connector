@@ -1,0 +1,86 @@
+{
+    "type": "object",
+    "properties": {
+        "source_lang": {
+            "required": true,
+            "type": "string",
+            "default": "en"
+        },
+        "corpus": {
+            "required": false,
+            "type": "string",
+            "default": "nmc"
+        },
+        "wordform": {
+            "required": false,
+            "type": "string"
+        },
+        "trueCase": {
+            "required": false,
+            "type": "string"
+        },
+        "lemma": {
+            "required": false,
+            "type": "string",
+            "default": "test"
+        },
+        "lexicalCategory": {
+            "required": false,
+            "type": "string"
+        },
+        "grammaticalFeatures": {
+            "required": false,
+            "type": "string"
+        },
+        "sort": {
+            "required": false,
+            "type": "string"
+        },
+        "collate": {
+            "required": false,
+            "type": "string"
+        },
+        "minFrequency": {
+            "required": false,
+            "type": "integer",
+            "format": "int64"
+        },
+        "maxFrequency": {
+            "required": false,
+            "type": "integer",
+            "format": "int64"
+        },
+        "minNormalizedFrequency": {
+            "required": false,
+            "type": "number",
+            "format": "float"
+        },
+        "maxNormalizedFrequency": {
+            "required": false,
+            "type": "number",
+            "format": "float"
+        },
+        "offset": {
+            "required": false,
+            "type": "integer",
+            "format": "int64",
+            "default": 0
+        },
+        "limit": {
+            "required": false,
+            "type": "integer",
+            "format": "int64",
+            "default": 100
+        },
+        "app_id": {
+            "required": true,
+            "type": "string",
+            "default": "5037d509"
+        },
+        "app_key": {
+            "required": true,
+            "type": "string",
+            "default": "4dc1aebaa63721f0f8e79a55e2514bc7"
+        }
+    }
+}

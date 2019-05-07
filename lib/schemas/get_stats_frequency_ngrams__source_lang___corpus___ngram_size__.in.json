@@ -1,0 +1,87 @@
+{
+    "type": "object",
+    "properties": {
+        "source_lang": {
+            "required": true,
+            "type": "string",
+            "default": "en"
+        },
+        "corpus": {
+            "required": true,
+            "type": "string",
+            "default": "nmc"
+        },
+        "tokens": {
+            "required": false,
+            "type": "string",
+            "default": "a word"
+        },
+        "contains": {
+            "required": false,
+            "type": "string"
+        },
+        "punctuation": {
+            "required": false,
+            "type": "string"
+        },
+        "format": {
+            "required": false,
+            "type": "string",
+            "default": "oup"
+        },
+        "minFrequency": {
+            "required": false,
+            "type": "integer",
+            "format": "int64"
+        },
+        "maxFrequency": {
+            "required": false,
+            "type": "integer",
+            "format": "int64"
+        },
+        "minDocumentFrequency": {
+            "required": false,
+            "type": "integer",
+            "format": "int64"
+        },
+        "maxDocumentFrequency": {
+            "required": false,
+            "type": "integer",
+            "format": "int64"
+        },
+        "collate": {
+            "required": false,
+            "type": "string"
+        },
+        "sort": {
+            "required": false,
+            "type": "string"
+        },
+        "offset": {
+            "required": false,
+            "type": "integer",
+            "format": "int64",
+            "default": 0
+        },
+        "limit": {
+            "required": false,
+            "type": "integer",
+            "format": "int64",
+            "default": 100
+        },
+        "app_id": {
+            "required": true,
+            "type": "string",
+            "default": "5037d509"
+        },
+        "app_key": {
+            "required": true,
+            "type": "string",
+            "default": "4dc1aebaa63721f0f8e79a55e2514bc7"
+        },
+        "ngram_size": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

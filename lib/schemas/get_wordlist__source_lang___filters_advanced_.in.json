@@ -1,0 +1,71 @@
+{
+    "type": "object",
+    "properties": {
+        "source_lang": {
+            "required": true,
+            "type": "string",
+            "enum": [
+                "en",
+                "es",
+                "hi",
+                "lv",
+                "sw",
+                "ta",
+                "gu"
+            ]
+        },
+        "filters_advanced": {
+            "required": true,
+            "type": "string",
+            "default": "lexicalCategory=Noun;domains=sport"
+        },
+        "exclude": {
+            "required": false,
+            "type": "string"
+        },
+        "exclude_senses": {
+            "required": false,
+            "type": "string"
+        },
+        "exclude_prime_senses": {
+            "required": false,
+            "type": "string"
+        },
+        "word_length": {
+            "required": false,
+            "type": "string",
+            "default": ">5,<10"
+        },
+        "prefix": {
+            "required": false,
+            "type": "string",
+            "default": "goal"
+        },
+        "exact": {
+            "required": false,
+            "type": "boolean",
+            "enum": [
+                "false",
+                "true"
+            ]
+        },
+        "limit": {
+            "required": false,
+            "type": "string"
+        },
+        "offset": {
+            "required": false,
+            "type": "string"
+        },
+        "app_id": {
+            "required": true,
+            "type": "string",
+            "default": "5037d509"
+        },
+        "app_key": {
+            "required": true,
+            "type": "string",
+            "default": "4dc1aebaa63721f0f8e79a55e2514bc7"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "type": "object",
+    "properties": {
+        "endpoint": {
+            "required": true,
+            "type": "string",
+            "enum": [
+                "entries",
+                "inflections",
+                "translations"
+            ]
+        },
+        "app_id": {
+            "required": true,
+            "type": "string",
+            "default": "5037d509"
+        },
+        "app_key": {
+            "required": true,
+            "type": "string",
+            "default": "4dc1aebaa63721f0f8e79a55e2514bc7"
+        }
+    }
+}
